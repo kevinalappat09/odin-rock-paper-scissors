@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 2px;
+    border: 0px;
+}
