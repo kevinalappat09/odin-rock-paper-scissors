@@ -85,8 +85,16 @@ play_rnd_btn.addEventListener('click', () => {
 
     if(score_count == 5) {
         user_message_element.textContent = `User wins`;
+        rock_btn.setAttribute('disabled','');
+        scissors_btn.setAttribute('disabled','');
+        paper_btn.setAttribute('disabled','');
+        play_rnd_btn.setAttribute('disabled','');
     } else if (score_count == -5) {
         user_message_element.textContent = `Computer Wins`;
+        rock_btn.setAttribute('disabled','');
+        scissors_btn.setAttribute('disabled','');
+        paper_btn.setAttribute('disabled','');
+        play_rnd_btn.setAttribute('disabled','');
     }
 });
 
